@@ -1,6 +1,8 @@
 # Prisma File Splitter Script
 
-This script allows you to split a large prisma seed file into multiple smaller seeds, each containing a specified number of lines.
+![image](https://github.com/EdSDR/prisma-seed-splitter/assets/89485015/28fd4cea-77a9-4a52-a9a0-475c530a9f75)
+
+This script enables you to split a large Prisma seed file into multiple smaller seeds, each containing a specified number of lines. Additionally, it automatically adds the necessary import statements, variables, and array tags you need.
 
 ## Installation
 
@@ -10,21 +12,12 @@ This script allows you to split a large prisma seed file into multiple smaller s
 
 ## Usage
 
+Fill the **input_file** and **lines_per_file** with your values
+
 Run the script with the following command:
 
 ```bash
-python script.py input_file lines_per_file
-```
-
-## Example
-
-Suppose you have a file named `data.txt` with 5000 lines and you want to split it into files with 1000 lines each.
-
-Run the following command:
-
-```bash
-python3 script.py data.txt 1000
-
+python3 index.py 
 ```
 
 ## Author
